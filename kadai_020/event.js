@@ -10,10 +10,6 @@ btn.addEventListener('click', () => {
     //要素を新しく作成する
     const childList = document.createElement('li');
 
-    //作成したli要素に""これはリスト要素です"というテキストを追加する
-    childList.textContent = 'ボタンをクリックしました';
-
     text.textContent = 'ボタンをクリックしました';
-
 
 });
