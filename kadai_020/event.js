@@ -8,7 +8,6 @@ const text = document.getElementById('text');
 btn.addEventListener('click', () => {
 
     //要素を新しく作成する
-    const childList = document.createElement('li');
 
     text.textContent = 'ボタンをクリックしました';
 
